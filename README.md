@@ -33,5 +33,3 @@ Webhook → Padronização de dados → Chamada à API de IA → Tratamento da r
 - Pronto para monitoramento e rate limiting  
 
 📈 Projeto focado em **IA aplicada, automação inteligente e integração de sistemas**, alinhado às exigências do mercado para áreas de **IA, Automação e Engenharia de Software**.
-
-Para mais detalhes sobre o projeto, acesse meu GitHub disponível no perfil.
