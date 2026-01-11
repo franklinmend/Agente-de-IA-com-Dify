@@ -6,12 +6,14 @@ O objetivo deste projeto foi demonstrar, na prática, **orquestração de agente
 
 O fluxo foi inspirado em um projeto anterior com RAG, porém adaptado para um **cenário stateless**, priorizando simplicidade, performance e controle de custos.
 
-🧠 **Arquitetura do fluxo**
+🧠 **Arquitetura do fluxo**  
 Webhook → Padronização de dados → Chamada à API de IA → Tratamento da resposta (JavaScript) → Retorno ao usuário
 
 🔧 **Tecnologias utilizadas**
 - n8n (automação de workflows)
 - Dify API (agentes de IA)
+- **Engenharia de Prompt (Dify)**
+- **Extração e gerenciamento de contexto dentro da própria plataforma Dify** (RAG)
 - JavaScript (Code Node)
 - Webhooks
 - APIs REST
@@ -20,6 +22,8 @@ Webhook → Padronização de dados → Chamada à API de IA → Tratamento da r
 ⚙️ **Destaques técnicos**
 - Arquitetura desacoplada e stateless  
 - Integração direta com agente de IA via API  
+- Uso de **engenharia de prompt dentro da Dify** para controle de comportamento do agente  
+- **Extração e organização de contexto realizada diretamente na Dify**, reduzindo lógica no n8n  
 - Uso de JavaScript para:
   - tratamento de respostas  
   - validação de erros  
@@ -33,3 +37,6 @@ Webhook → Padronização de dados → Chamada à API de IA → Tratamento da r
 - Pronto para monitoramento e rate limiting  
 
 📈 Projeto focado em **IA aplicada, automação inteligente e integração de sistemas**, alinhado às exigências do mercado para áreas de **IA, Automação e Engenharia de Software**.
+
+Para mais detalhes sobre o projeto, acesse meu GitHub disponível no perfil.
+
